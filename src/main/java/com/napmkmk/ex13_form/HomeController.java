@@ -51,14 +51,15 @@ public class HomeController {
 			
 			return "board/confirmId";
 	}
-	//파일실행시키려면 컨트럴러에 꼭 등록이 필요함
-	@RequestMapping(value = "/login") // 마음대로 정해도됨  
+	
+	@RequestMapping(value = "/login") 
 	public String login() { 
 	
 		
-		return "board/login"; //실제 존재하는 위치
+		return "board/login";
 		
 		
 	}
+
 	
 }
